@@ -121,9 +121,13 @@ justify-content: space-evenly;
 }
 .forintroduction .forintroduction-heading h2{
     color: #316DC3;
+    font-weight: 600 !important;
+    font-size: 40px;
 }
 .forintroduction .forintroduction-heading h2 .in-class{
-    color: #427900 !important;;
+    font-size: 40px;
+    color: #427900 !important;
+    font-weight: 600 !important;
 }
 .class-title{
     margin: 30px 0;
@@ -203,6 +207,70 @@ margin: 20px;
     font-weight: 600 !important;
     color:rgb(0, 255, 0);
 }
+
+.facalities{
+    background-color:#f7f8fa !important;
+    height: 710px;
+}
+.facalities-headingandlogo{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.heading-facalities h2{
+    font-size: 2rem;
+    font-weight:600;
+    color: #316DC3;
+}
+.for-margin{
+    margin-top: 60px;
+    
+}
+.heading-facalities h2 .in-class{
+    font-size:2rem;
+    color: #427900 !important;
+    font-weight: 600;
+}
+.logo-facalities{
+    display: flex;
+}
+.logo-facalities img{
+    height: 40px;
+}
+.container-facalities{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.facaclities-c-1{
+    display: flex;
+}
+.facaclities-c-2{
+    display: flex;
+}
+.facalities-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    
+    background-color: #fff !important;
+}
+.facalities-boxes h4{
+   font-size: 20px;;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #316DC3;
+    
+
+}
+
 .footer-main{
     height: 50vh;
     background-color: #333333;
