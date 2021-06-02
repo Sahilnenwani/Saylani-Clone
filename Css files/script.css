@@ -270,6 +270,81 @@ align-items: center;
     
 
 }
+.all-types-data{
+    height: 1500px;
+    background-color: #fff;
+
+}
+.data-box1{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.for-dataandheading-design{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.data-heading{
+    font-weight: 600px;
+    font-size: 25px;
+    color: #316DC3;
+}
+.data-heading-border{
+    margin-top: 10px;
+    height: 2px;
+    width:50px;
+    background-color: #427900;
+}
+
+.box-row{
+    display: flex;
+    
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+    height: 80px;
+    width: 350px;
+    background-color:#f7f8fa !important; 
+}
+.box-row img{
+    margin-left: 20px;
+}
+.heading-design{
+    font-weight: 600;
+    margin-left:20px;
+    color:#316DC3;
+    font-size: 18px;
+}
+.data-boxes-row-1{
+        display: flex;
+}
+.data-boxes-row-2{
+    display: flex;
+}
+.data-boxes-row{
+    display: flex;
+    flex-direction: column;
+}
+.line-border1-another{
+    width:40vh ;
+    margin-top: 10px;
+    border-bottom: 1px solid #eeeeee !important;
+    
+
+}
+.design-marque marquee {
+    background-color:#fff;
+    
+
+}
+.design-marque a{
+text-decoration: none;
+}
 
 .footer-main{
     height: 50vh;
