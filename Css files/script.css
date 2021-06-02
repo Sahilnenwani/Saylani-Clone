@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -117,14 +119,16 @@ justify-content: space-evenly;
     justify-content: center;
     color: #666666;;
     background-color:#f7f8fa !important;
-    height: 700px;
+    height: 800px;
 }
 .forintroduction .forintroduction-heading h2{
+    font-family: 'Merriweather', serif;
     color: #316DC3;
     font-weight: 600 !important;
     font-size: 40px;
 }
 .forintroduction .forintroduction-heading h2 .in-class{
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     color: #427900 !important;
     font-weight: 600 !important;
@@ -160,6 +164,7 @@ justify-content: space-evenly;
     overflow: hidden;
     font-size: large;
     font: 50px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .icons-container{
@@ -219,6 +224,7 @@ flex-direction: column;
 align-items: center;
 }
 .heading-facalities h2{
+    font-family: 'Merriweather', serif;
     font-size: 2rem;
     font-weight:600;
     color: #316DC3;
@@ -228,6 +234,7 @@ align-items: center;
     
 }
 .heading-facalities h2 .in-class{
+    font-family: 'Merriweather', serif;
     font-size:2rem;
     color: #427900 !important;
     font-weight: 600;
@@ -271,13 +278,13 @@ align-items: center;
 
 }
 .all-types-data{
-    height: 1500px;
+    height: 1100px;
     background-color: #fff;
 
 }
 .data-box1{
     height: 400px;
-    width: 100vw;
+ 
     display: flex;
    align-items: center;
     justify-content: center;
@@ -337,6 +344,11 @@ align-items: center;
     
 
 }
+.for-upcoming-heading{
+    
+    margin-bottom:25px;
+    
+}
 .design-marque marquee {
     background-color:#fff;
     
@@ -345,7 +357,37 @@ align-items: center;
 .design-marque a{
 text-decoration: none;
 }
-
+.image-gallery-data{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.for-data-hieght-change{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    color: #316DC3;
+    
+}
+.for-data-hieght-change span{
+    font-family: 'Merriweather', serif;
+    font-size:50px;
+    color: #427900 !important;
+    
+}
+.images-box-data{
+    display: flex;
+}
+.images-box-data img{
+ margin-left: 5px;
+height: 150px;
+ width: 230px;
+}
+.for-margin-image-gallery{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 .footer-main{
     height: 50vh;
     background-color: #333333;
